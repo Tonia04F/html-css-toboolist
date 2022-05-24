@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -16,6 +17,8 @@ body{
     margin-right: auto;
     margin-top: 5%;
     background-color: white;
+    
+    
 }
 
 /*commons*/
@@ -25,6 +28,7 @@ body{
     border: 1px solid rgb(209, 208, 208);
     padding: 3px;
     border-radius: 5px;
+    
 }
 .btn-blu{
     background-color: rgb(13, 185, 243);
@@ -34,6 +38,7 @@ body{
 /*header*/
 header{
     background-color: white;
+    
 }
 /*top*/
 .top{
@@ -45,6 +50,7 @@ ul{
     list-style: none;
 }
 .circle{
+    color: green;
     border: 1px solid green;
     border-radius: 50%;
     width: 15px;
@@ -52,8 +58,10 @@ ul{
     display: inline-block;
     font-size: 11px;
     text-align: center;
+    
 }
 .circle-red{
+    color: red;
     border: 1px solid rgb(167, 25, 25);
     border-radius: 50%;
     width: 15px;
@@ -61,4 +69,29 @@ ul{
     display: inline-block;
     font-size: 11px;
     text-align: center;
+}
+.tasto{
+  color: white;
+  padding: 6px;
+  font-size: 8px;
+  height: 15px;
+  border-radius: 10px;
+}
+.blu{
+    background-color: rgb(109, 184, 238);
+}
+.viola{
+    background-color: blueviolet;
+}
+.verde{
+    background-color: rgb(65, 212, 165);
+}
+.arancione{
+    background-color: rgb(212, 136, 74);
+}
+.rosa{
+    background-color: rgb(226, 43, 147);
+}
+.verdino{
+    background-color: rgb(121, 232, 73);
 }
