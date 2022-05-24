@@ -53,3 +53,12 @@ ul{
     font-size: 11px;
     text-align: center;
 }
+.circle-red{
+    border: 1px solid rgb(167, 25, 25);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    font-size: 11px;
+    text-align: center;
+}
