@@ -7,8 +7,9 @@
 
 
 body{
-    background-color: rgba(211, 211, 211, 0.98);
+    background-color: rgb(241, 242, 246);
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .container{
@@ -16,7 +17,7 @@ body{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 1px;
     background-color: white;
 
@@ -67,8 +68,8 @@ ul{
     list-style: none;
 }
 .circle{
-    color: green;
-    border: 1px solid green;
+    color: rgb(98, 205, 98);
+    border: 1px solid rgb(98, 205, 98);
     border-radius: 50%;
     width: 15px;
     height: 15px;
@@ -79,8 +80,8 @@ ul{
     
 }
 .circle-red{
-    color: red;
-    border: 1px solid rgb(167, 25, 25);
+    color: rgb(238, 50, 29);
+    border: 1px solid rgb(238, 50, 29);
     border-radius: 50%;
     width: 15px;
     height: 15px;
@@ -97,20 +98,20 @@ ul{
   border-radius: 10px;
 }
 .blu{
-    background-color: rgb(109, 184, 238);
+    background-color: rgb(53, 201, 255);
 }
 .viola{
     background-color: blueviolet;
 }
 .verde{
-    background-color: rgb(65, 212, 165);
+    background-color: rgb(37, 245, 179);
 }
 .arancione{
-    background-color: rgb(212, 136, 74);
+    background-color: rgb(255, 138, 42);
 }
 .rosa{
-    background-color: rgb(226, 43, 147);
+    background-color: rgb(255, 39, 161);
 }
 .verdino{
-    background-color: rgb(121, 232, 73);
+    background-color: rgb(132, 255, 79);
 }
