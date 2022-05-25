@@ -1,5 +1,6 @@
+/*css reset si mette sempre */
 *{
-    box-sizing: border-box;
+    box-sizing: border-box;/*dimensioni contenitore*/
     margin: 0;
     padding: 0;
     
@@ -7,6 +8,7 @@
 
 
 body{
+    /*scelgo il font di default di tutta la pagina*/
     background-color: rgb(241, 242, 246);
     font-family: Arial, Helvetica, sans-serif;
     
@@ -22,6 +24,8 @@ body{
     margin-bottom: 1px;
     background-color: white;
     padding-left: 40px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     
 
 }
@@ -34,6 +38,9 @@ body{
     margin-top: 1px;
     margin-bottom: 20px;
     background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 
 }
 
@@ -43,18 +50,23 @@ body{
     color: rgba(211, 211, 211, 0.98);
     text-decoration: none;
     border: 1px solid rgb(209, 208, 208);
-    padding: 3px;
+    padding: 5px;
     border-radius: 5px;
+    display: inline-block;/*risulta lo spzi del bottone e non solo della scritta contenuta*/
     
 }
 .btn-blu{
     background-color: rgb(13, 185, 243);
+    border-color: rgb(13, 185, 243);
     color: white;
+    display: inline-block;
 }
 
 /*header*/
 header{
     background-color: white;
+    padding: 10px;
+    /*metti padding per aumentare lo spazio sotto il titolo*/
     
 }
 /*top*/
@@ -117,4 +129,7 @@ ul{
 }
 .verdino{
     background-color: rgb(132, 255, 79);
+}
+.main-list li{
+    padding-bottom: 10px;
 }
